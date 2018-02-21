@@ -1,0 +1,44 @@
+
+
+/*change the color of the background*/
+body{
+	background-color: #00ccff;
+	font-color: white; 
+}
+
+/*add a text shadow to the font*/
+h1{
+	font-color: red;
+	text-shadow: 1.5px 1.5px orange;
+}
+
+h2{
+	font-color: red;
+	text-shadow: 1.5px 1.5px #ffffff;
+}
+
+
+/*change the color of the text*/
+a:text{
+	font-color: white;
+}
+
+/* make the color of links orange*/
+a:link{
+	color: orange;
+}
+
+/* change the color of visited links red */
+a:visted{
+	color: red;
+}
+
+/* color links you hover over white */
+a:hover{
+	color: white;
+}
+
+a:active{
+	color: red;
+}
+
