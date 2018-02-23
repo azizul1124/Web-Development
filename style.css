@@ -13,14 +13,22 @@ h1{
 }
 
 h2{
-	font-color: red;
-	text-shadow: 1.5px 1.5px #ffffff;
+	font-color: white;
+	text-shadow: 1.5px 1.5px orange;
 }
 
+/* edit the home page image */
+img{
+	width: 250px;
+	height: 250px;
+	border-radius: 80%;
+	object-fit: fill;
+	box-shadow: 6.5px 6.5px;
+}
 
 /*change the color of the text*/
 a:text{
-	font-color: white;
+	color: white;
 }
 
 /* make the color of links orange*/
@@ -32,6 +40,7 @@ a:link{
 a:visted{
 	color: red;
 }
+
 
 /* color links you hover over white */
 a:hover{
